@@ -7,12 +7,14 @@ import androidx.appcompat.app.AppCompatActivity
 import kotlinx.android.synthetic.main.activity_main.*
 import okio.Okio
 import java.io.File
+import java.util.*
 
 class MainActivity : AppCompatActivity(), View.OnTouchListener {
 
     companion object {
 
-        private const val SF2_FILE_NAME = "PNS Drum Kit.SF2"
+//        private const val SF2_FILE_NAME = "PNS Drum Kit.SF2"
+        private const val SF2_FILE_NAME = "sndfnt.sf2"
 
         private const val KEY = 60
         private const val VELOCITY = 127
@@ -50,7 +52,8 @@ class MainActivity : AppCompatActivity(), View.OnTouchListener {
     }
 
     private fun noteOn() {
-        nativeLibJNI.noteOn(KEY, VELOCITY)
+        val randomKey = Random().nextInt(108 - 21) + 21
+        nativeLibJNI.noteOn(randomKey, VELOCITY)
     }
 
     private fun noteOff() {

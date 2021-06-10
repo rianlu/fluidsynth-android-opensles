@@ -1,0 +1,222 @@
+{
+  "stringTable": {
+    "0": "/Users/enjoymusic/Development/fluidsynth-develop/fluidsynth-android-opensles/app/.cxx/cmake/debug/x86_64",
+    "1": "--target=x86_64-none-linux-android21 --gcc-toolchain=/Users/enjoymusic/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/enjoymusic/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -Dfluidsynth_EXPORTS -I/Users/enjoymusic/Development/fluidsynth-develop/fluidsynth-android-opensles/app/src/main/cpp/fluidsynth/android/. -I/Users/enjoymusic/Development/fluidsynth-develop/fluidsynth-android-opensles/app/src/main/cpp/fluidsynth/android/include -I/Users/enjoymusic/Development/fluidsynth-develop/fluidsynth-android-opensles/app/src/main/cpp/fluidsynth/android/../src/../include -I/Users/enjoymusic/Development/fluidsynth-develop/fluidsynth-android-opensles/app/src/main/cpp/fluidsynth/android/../src/synth -I/Users/enjoymusic/Development/fluidsynth-develop/fluidsynth-android-opensles/app/src/main/cpp/fluidsynth/android/../src/midi -I/Users/enjoymusic/Development/fluidsynth-develop/fluidsynth-android-opensles/app/src/main/cpp/fluidsynth/android/../src/rvoice -I/Users/enjoymusic/Development/fluidsynth-develop/fluidsynth-android-opensles/app/src/main/cpp/fluidsynth/android/../src/sfloader -I/Users/enjoymusic/Development/fluidsynth-develop/fluidsynth-android-opensles/app/src/main/cpp/fluidsynth/android/../src/utils -I/Users/enjoymusic/Development/fluidsynth-develop/fluidsynth-android-opensles/app/src/main/cpp/fluidsynth/android/../src/bindings -I/Users/enjoymusic/Development/fluidsynth-develop/fluidsynth-android-opensles/app/src/main/cpp/fluidsynth/android/../src/drivers -Iinclude -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security -O0 -fno-limit-debug-info -fPIC -Wall -DHAVE_CONFIG_H -Wno-unused-variable -Werror"
+  },
+  "buildFiles": [
+    "/Users/enjoymusic/Development/fluidsynth-develop/fluidsynth-android-opensles/app/src/main/cpp/fluidsynth/android/CMakeLists.txt",
+    "/Users/enjoymusic/Library/Android/sdk/ndk/21.1.6352462/build/cmake/android.toolchain.cmake",
+    "/Users/enjoymusic/Library/Android/sdk/ndk/21.1.6352462/build/cmake/platforms.cmake",
+    "/Users/enjoymusic/Development/fluidsynth-develop/fluidsynth-android-opensles/app/src/main/cpp/fluidsynth/include/fluidsynth.cmake"
+  ],
+  "cleanCommands": [
+    "/Users/enjoymusic/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja -C \"/Users/enjoymusic/Development/fluidsynth-develop/fluidsynth-android-opensles/app/.cxx/cmake/debug/x86_64\" clean"
+  ],
+  "buildTargetsCommand": "/Users/enjoymusic/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja  -C \"/Users/enjoymusic/Development/fluidsynth-develop/fluidsynth-android-opensles/app/.cxx/cmake/debug/x86_64\" {LIST_OF_TARGETS_TO_BUILD}",
+  "libraries": {
+    "fluidsynth-Debug-x86_64": {
+      "buildCommand": "/Users/enjoymusic/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja -C \"/Users/enjoymusic/Development/fluidsynth-develop/fluidsynth-android-opensles/app/.cxx/cmake/debug/x86_64\" fluidsynth",
+      "buildType": "debug",
+      "toolchain": "2103466706",
+      "abi": "x86_64",
+      "artifactName": "fluidsynth",
+      "files": [
+        {
+          "src": "/Users/enjoymusic/Development/fluidsynth-develop/fluidsynth-android-opensles/app/src/main/cpp/native-lib.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/enjoymusic/Development/fluidsynth-develop/fluidsynth-android-opensles/app/src/main/cpp/fluidsynth/src/midi/fluid_midi.c",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/enjoymusic/Development/fluidsynth-develop/fluidsynth-android-opensles/app/src/main/cpp/fluidsynth/src/midi/fluid_midi_router.c",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/enjoymusic/Development/fluidsynth-develop/fluidsynth-android-opensles/app/src/main/cpp/fluidsynth/src/midi/fluid_seq.c",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/enjoymusic/Development/fluidsynth-develop/fluidsynth-android-opensles/app/src/main/cpp/fluidsynth/src/midi/fluid_seqbind.c",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/enjoymusic/Development/fluidsynth-develop/fluidsynth-android-opensles/app/src/main/cpp/fluidsynth/src/rvoice/fluid_adsr_env.c",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/enjoymusic/Development/fluidsynth-develop/fluidsynth-android-opensles/app/src/main/cpp/fluidsynth/src/rvoice/fluid_chorus.c",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/enjoymusic/Development/fluidsynth-develop/fluidsynth-android-opensles/app/src/main/cpp/fluidsynth/src/rvoice/fluid_iir_filter.c",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/enjoymusic/Development/fluidsynth-develop/fluidsynth-android-opensles/app/src/main/cpp/fluidsynth/src/rvoice/fluid_lfo.c",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/enjoymusic/Development/fluidsynth-develop/fluidsynth-android-opensles/app/src/main/cpp/fluidsynth/src/rvoice/fluid_rev.c",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/enjoymusic/Development/fluidsynth-develop/fluidsynth-android-opensles/app/src/main/cpp/fluidsynth/src/rvoice/fluid_rvoice.c",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/enjoymusic/Development/fluidsynth-develop/fluidsynth-android-opensles/app/src/main/cpp/fluidsynth/src/rvoice/fluid_rvoice_dsp.c",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/enjoymusic/Development/fluidsynth-develop/fluidsynth-android-opensles/app/src/main/cpp/fluidsynth/src/rvoice/fluid_rvoice_event.c",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/enjoymusic/Development/fluidsynth-develop/fluidsynth-android-opensles/app/src/main/cpp/fluidsynth/src/rvoice/fluid_rvoice_mixer.c",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/enjoymusic/Development/fluidsynth-develop/fluidsynth-android-opensles/app/src/main/cpp/fluidsynth/src/sfloader/fluid_defsfont.c",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/enjoymusic/Development/fluidsynth-develop/fluidsynth-android-opensles/app/src/main/cpp/fluidsynth/src/sfloader/fluid_ramsfont.c",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/enjoymusic/Development/fluidsynth-develop/fluidsynth-android-opensles/app/src/main/cpp/fluidsynth/src/sfloader/fluid_sfont.c",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/enjoymusic/Development/fluidsynth-develop/fluidsynth-android-opensles/app/src/main/cpp/fluidsynth/src/synth/fluid_chan.c",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/enjoymusic/Development/fluidsynth-develop/fluidsynth-android-opensles/app/src/main/cpp/fluidsynth/src/synth/fluid_event.c",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/enjoymusic/Development/fluidsynth-develop/fluidsynth-android-opensles/app/src/main/cpp/fluidsynth/src/synth/fluid_gen.c",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/enjoymusic/Development/fluidsynth-develop/fluidsynth-android-opensles/app/src/main/cpp/fluidsynth/src/synth/fluid_mod.c",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/enjoymusic/Development/fluidsynth-develop/fluidsynth-android-opensles/app/src/main/cpp/fluidsynth/src/synth/fluid_synth.c",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/enjoymusic/Development/fluidsynth-develop/fluidsynth-android-opensles/app/src/main/cpp/fluidsynth/src/synth/fluid_tuning.c",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/enjoymusic/Development/fluidsynth-develop/fluidsynth-android-opensles/app/src/main/cpp/fluidsynth/src/synth/fluid_voice.c",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/enjoymusic/Development/fluidsynth-develop/fluidsynth-android-opensles/app/src/main/cpp/fluidsynth/src/synth/fluid_synth_monopoly.c",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/enjoymusic/Development/fluidsynth-develop/fluidsynth-android-opensles/app/src/main/cpp/fluidsynth/src/utils/fluid_conv.c",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/enjoymusic/Development/fluidsynth-develop/fluidsynth-android-opensles/app/src/main/cpp/fluidsynth/src/utils/fluid_hash.c",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/enjoymusic/Development/fluidsynth-develop/fluidsynth-android-opensles/app/src/main/cpp/fluidsynth/src/utils/fluid_list.c",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/enjoymusic/Development/fluidsynth-develop/fluidsynth-android-opensles/app/src/main/cpp/fluidsynth/src/utils/fluid_ringbuffer.c",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/enjoymusic/Development/fluidsynth-develop/fluidsynth-android-opensles/app/src/main/cpp/fluidsynth/src/utils/fluid_settings.c",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/enjoymusic/Development/fluidsynth-develop/fluidsynth-android-opensles/app/src/main/cpp/fluidsynth/src/bindings/fluid_filerenderer.c",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/enjoymusic/Development/fluidsynth-develop/fluidsynth-android-opensles/app/src/main/cpp/fluidsynth/src/drivers/fluid_adriver.c",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/enjoymusic/Development/fluidsynth-develop/fluidsynth-android-opensles/app/src/main/cpp/fluidsynth/src/drivers/fluid_opensles.c",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/enjoymusic/Development/fluidsynth-develop/fluidsynth-android-opensles/app/src/main/cpp/fluidsynth/src/utils/fluid_sys.c",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/enjoymusic/Development/fluidsynth-develop/fluidsynth-android-opensles/app/src/main/cpp/fluidsynth/android/src/bindings/fluid_cmd.c",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/enjoymusic/Development/fluidsynth-develop/fluidsynth-android-opensles/app/src/main/cpp/fluidsynth/android/src/drivers/fluid_mdriver.c",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        }
+      ],
+      "headers": [],
+      "output": "/Users/enjoymusic/Development/fluidsynth-develop/fluidsynth-android-opensles/app/build/intermediates/cmake/debug/obj/x86_64/libfluidsynth.so",
+      "runtimeFiles": []
+    }
+  },
+  "toolchains": {
+    "2103466706": {
+      "cCompilerExecutable": "/Users/enjoymusic/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang",
+      "cppCompilerExecutable": "/Users/enjoymusic/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++"
+    }
+  },
+  "cFileExtensions": [
+    "c"
+  ],
+  "cppFileExtensions": [
+    "cpp"
+  ]
+}
